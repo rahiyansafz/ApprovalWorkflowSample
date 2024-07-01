@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="~/" />
+    <link href="/css/site.css" rel="stylesheet" />
+    <link href="ApprovementWorkflowSample.styles.css" rel="stylesheet" />
+</head>
+<body>
+    @namespace ApprovementWorkflowSample.Views
+    @(await Html.RenderComponentAsync<App>(RenderMode.ServerPrerendered))
+    <script src="_framework/blazor.server.js"></script>
+    <script src="/js/messageAction.js"></script>
+</body>
+</html>
